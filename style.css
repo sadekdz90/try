@@ -1,0 +1,68 @@
+/*comment*/
+* {
+	text-align: right;
+}
+body{
+	background-image: url(https://www.planwallpaper.com/static/images/1871596.jpg);
+	background-size: cover;
+}
+h2,p {
+	color: #550000; /*hex*/
+	text-align: center;
+	border: 5px dashed rgba(212, 106, 106,0.5);
+	cursor: pointer;
+}
+h2 p {
+	color: #FFFFFF; /*hex*/
+	text-align: center;
+	border: 5px dashed rgba(212, 106, 106,0.5);
+	cursor: pointer;
+}
+h2 > p {
+	color: #000000; /*hex*/
+	text-align: center;
+	border: 5px dashed rgba(212, 106, 106,0.5);
+	cursor: pointer;
+}
+h2 + p:hover {
+	color: #000000; /*hex*/
+	text-align: center;
+	border: 5px dashed rgba(212, 106, 106,0.5);
+	cursor: pointer;
+}
+p {
+	color: black !important;
+}
+p {
+	color: green;
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 40px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 120%;
+	font-family: 'Charmonman', cursive;
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+.webtext:last-child{
+	border: 5px solid green;
+}
+.active{
+	color: black;
+}
+#div1{
+	background: rgba(0,0,255,0.2);
+}
+#div2{
+	background: rgba(255,0,0,0.2);
+}
+img{
+	float: left;
+}
+footer{
+	clear: both;
+	text-align: center;
+}

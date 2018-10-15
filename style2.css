@@ -1,0 +1,14 @@
+.boxmodel{
+	border: 5px solid red;
+	display: inline-block;
+	padding: 5px 20px 5px 20px;
+	margin: 0px 20px;
+	width: 33px;
+	height: 55px;
+}
+p{
+	font-size: 20px;
+}
+span{
+	font-size: 2em; /*em compare the size with the container element and rem compare the size with the html element (means all the file)*/
+}
